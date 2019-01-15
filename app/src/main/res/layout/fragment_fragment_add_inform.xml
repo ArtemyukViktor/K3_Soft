@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Fragments.FragmentAddInform">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="200dp"
+        android:text="cancel" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="148dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/tvPrise"
+        android:layout_width="338dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+
+
+        android:text="Price" />
+
+    <ImageView
+        android:id="@+id/imageViewADITIONAL"
+        android:layout_width="77dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="0dp"
+        android:src="@android:drawable/btn_star_big_on" />
+
+
+</FrameLayout>
